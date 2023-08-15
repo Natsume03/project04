@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/*トップ画像トリミング*/
+img#topimg {
+    width: 100%;
+    height: 740px;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+/*ロゴ*/
+#logo {
+    text-align: center;
+    background-color: #0bd;
+}
+
+#logo a {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+/*ロゴ下カテゴリー*/
+#flexbox {
+    display: flex;
+    justify-content: center;
+    background-color: #0bd;
+}
+
+#flexbox a {
+    font-size: 3rem;
+    padding: 20px 30px;
+}
+
+/*ロゴ下カテゴリーが押されたときの色*/
+#flexbox a:hover {
+    background-color: rgb(0, 238, 255);
+}
+
+/*記事とか諸々載せる空間*/
+#space {
+    border: 4px #0bd solid;
+    padding: 20px;
+    border-top: none;
+    padding-top: 0px;
+}
+
+/*ページタイトル:原神公式リンク集*/
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 20px;
+    color: #0bd;
+}
+
+/*↑---------------------------ここまで全ページ共通項目----------------------------------------↑*/
+
+/*↓----------------------------ここからページごとのCSS------------------------------------------↓*/
+article p {
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+article a {
+    color: blue;
+    font-size: 1rem;
+}
+
+article a:hover {
+    color: #0bd;
+}
+
+#osusumedouga {
+    color: #0bd;
+    text-align: center;
+}
+
+iframe {
+    margin-left: 5%;
+    margin-right: 9%;
+}
