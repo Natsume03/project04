@@ -67,14 +67,14 @@ h1 {
 
 /*↓----------------------------ここからページごとのCSS------------------------------------------↓*/
 article p {
-    font-size: 2rem;
+    font-size: 2.7rem;
     margin-top: 20px;
     font-weight: bold;
 }
 
 article a {
     color: blue;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 article a:hover {

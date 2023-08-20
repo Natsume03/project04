@@ -67,14 +67,14 @@ h1 {
 
 /*↓----------------------------ここからページごとのCSS------------------------------------------↓*/
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-bottom: #0bd solid;
     margin-bottom: 10px;
 }
 
 h3 {
     color: #0bd;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }
 
 /*イベント詳細情報の背景色、背景幅用class*/
@@ -86,7 +86,7 @@ h3 {
 
 /*文章の文字サイズ*/
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.7;
 }
 
