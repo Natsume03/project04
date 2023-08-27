@@ -93,14 +93,9 @@ h2 {
 /*祈願名、キャラ名*/
 h3 {
     margin-top: 10px;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: black;
     margin-bottom: 7px;
-}
-
-/*文章*/
-p {
-    font-size: 1.5rem;
 }
 
 /*祈願画像サイズを#spaceに合わせる*/
